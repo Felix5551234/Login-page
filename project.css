@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Popins", sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    background-image: url("mountain.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box{
+    background-color: gray;
+    border: 2px solid rgba( 255, 255, 255, .2);
+    padding: 10px;
+    width:300px;
+    border-radius: 20px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+.l{
+    text-align: center;
+    font-size:30px;
+    margin-top:20px;
+    
+}
+.input-box input::placeholder{
+    padding-left: 5px;
+    color: white;
+}
+.input-box input{
+    width:100%;    
+    height:100%;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid rgba( 255, 255, 255, .2);
+    padding-left: 10px;
+    outline: none;
+}
+.btn {
+    width: 100%;
+    border-radius: 20px;
+    height:50px;
+}
+
+.remember-forgot{
+    margin:-10px 0px 10px 0px;
+}
+.input-box{
+    width:100%;
+    height:50px;    
+    
+    margin:20px 0px;
+}
+
+.register{
+    margin:10px 0px;
+    text-align:center;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.key img{
+    color: white;
+    width:15px;
+}
+.key{
+    position: relative;
+    top:-32px;
+    color: white;
+    right:-250px;
+}
+.user img{
+    color: white;
+    width:15px;
+}
+.user{
+    position: relative;
+    top:-32px;
+    color: white;
+    right:-250px;
+}
+
+
+.image{
+    color: white;
+    width:20px;
+}
